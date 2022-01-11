@@ -1,17 +1,8 @@
 package com.serenitydojo;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
-
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.Month;
-import java.time.format.DateTimeFormatter;
-import java.time.temporal.TemporalAdjusters;
-
-import static com.serenitydojo.DateAssert.assertThat;
 
 @DisplayName("When working with dates in Java 8")
 class WhenWorkingWithDates {
